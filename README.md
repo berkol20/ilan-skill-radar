@@ -8,10 +8,6 @@ beceriler, seviye, deneyim yılı, çalışma şekli, rol ailesi. Sonra bu verid
 "hangi beceriler birlikte isteniyor" ve "hangi beceri hangi maaş bandında
 geçiyor" sorularına bakılıyor.
 
-<!-- Panoyu çalıştırıp ekran görüntüsü al, docs/screenshot.png olarak kaydet
-     ve şu satırın yorumunu kaldır. README'nin en çok fark yaratan kısmı bu. -->
-<!-- ![Pano](docs/screenshot.png) -->
-
 ## Nasıl çalışır
 
 ```
@@ -34,16 +30,16 @@ cd ilan-skill-radar
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-cp .env.example .env    # ANTHROPIC_API_KEY'i içine yaz
+cp .env.example .env
 ```
 
 ## Çalıştırma
 
 ```bash
 python src/fetch_jobs.py --limit 300 --tags dev,engineer,python,javascript,data,devops
-python src/extract_rules.py --verbose    # kural tabanlı çıkarım, ücretsiz
-python src/analyze.py                    # istatistikleri üret
-streamlit run src/app.py                 # panoyu aç
+python src/extract_rules.py --verbose
+python src/analyze.py
+streamlit run src/app.py
 ```
 
 LLM yolunu denemek istersen (`.env` içine `ANTHROPIC_API_KEY` gerekiyor):
@@ -102,14 +98,52 @@ Veri kaynağı uzaktan çalışma ilanlarına özel bir platform, dolayısıyla
 Veri Remote OK'in o anki feed'inden geliyor, yani belirli bir günün anlık
 görüntüsü. Zaman içindeki değişimi göstermiyor.
 
+Rol sınıflandırması ilanların bir kısmında karar veremiyor ("other"), ve teknik
+rol sayılan 89 ilanın 30'unda hiç beceri bulunamıyor. Bunlar genelde kısa
+yazılmış ilanlar; kural tabanlı yaklaşımın doğal sınırı.
+
 ## Bulgular
 
-<!-- Kendi verinle çalıştırdıktan sonra buraya 3-5 madde yaz. Somut sayı ver.
-     Repoyu veri deposu olmaktan çıkarıp bir şey söyleyen projeye çeviren kısım
-     burası — README'yi okuyan çoğu kişi sadece bunu okuyacak. -->
+300 ilan çekildi, bunların 89'u teknik rol olarak sınıflandı. Sayılar küçük,
+dolayısıyla aşağıdakiler bu anlık görüntüye ait gözlemler, piyasa iddiası değil.
 
-- ...
-- ...
+- **Python + SQL en sık birlikte istenen çift** (17 ilan). Tek tek de zaten
+  ilk sıradalar: Python 24, SQL 20 ilanda geçiyor.
+
+- **Çoklu bulut beklentisi belirgin.** AWS ve Google Cloud 8 ilanda birlikte
+  (lift 4.62), Azure ve Google Cloud 7 ilanda (lift 4.72). Tek bulut sağlayıcı
+  bilmek yetmiyor gibi görünüyor.
+
+- **En güçlü bağ frontend üçlüsünde:** CSS ve HTML 11 ilanda birlikte, lift
+  7.42 ile listenin tepesinde. Buna JavaScript de ekleniyor (HTML+JS 12 ilan).
+
+- **Veri tarafında Snowflake ayrışıyor.** "data engineering" ile Snowflake
+  4 ilanda birlikte, lift 7.42. Küçük sayı ama bağ çok güçlü.
+
+- **İlanların çoğu seviye belirtmiyor.** 89 teknik ilanın 61'inde başlıkta veya
+  metinde açık bir seviye ifadesi yok. Belirtenlerde lead (11) sayısı senior (7)
+  ve junior (7) toplamına yakın.
+
+- **İstenen deneyim medyanı 3 yıl.** Yıl sayısı belirten 31 ilanda dağılım
+  3 yıl (10 ilan), 2 yıl (8), 1 yıl (6) şeklinde yoğunlaşıyor.
+
+- **Maaş neredeyse hiç açıklanmıyor.** 89 teknik ilanın sadece 5'inde maaş
+  aralığı var, bu yüzden beceri-maaş grafiği anlamlı sonuç üretmiyor.
+
+### Çıkarım sürecinden çıkan iki bulgu
+
+Bunlar veri hakkında değil, veriyle çalışma hakkında:
+
+**Kaynağın etiketleri güvenilmez.** İlk çalıştırmada Go, Python'dan sonra ikinci
+sıradaydı. Şüphelenip baktığımda 60 ilanın içinde İK uzmanı, makine operatörü ve
+teknisyen ilanları vardı. Sebep: Remote OK ilanlara ilanla alakasız etiketler
+ekliyor, bir pazarlama asistanı ilanının etiketleri arasında `golang` geçiyor.
+Etiket alanı çıkarımdan tamamen çıkarıldığında Go ilk 10'dan düştü.
+
+**Kısa dil isimleri bağlam ister.** `in go` kalıbı "go-to-market strategy"
+ifadesini, bare `rest` kalıbı "the rest of the team" cümlesini, `swift` kalıbı
+"swift action" ifadesini yakalıyordu. Üçü de bağlam isteyen kalıplarla
+değiştirildi (`STRICT_SKILLS`).
 
 ## Kaynak
 
