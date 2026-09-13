@@ -177,6 +177,13 @@ ROLE_RULES = [
 
 NON_TECHNICAL_ROLES = {"marketing", "sales", "support", "product", "design"}
 
+# Rolün kendisi zaten teknikse beceri sayısına bakmıyoruz. Aksi halde kısa
+# yazılmış bir yazılım ilanı ("Software Engineer II Golang") teknik sayılmıyordu.
+TECHNICAL_ROLES = {
+    "engineering", "data", "devops", "frontend", "backend",
+    "fullstack", "mobile", "qa", "security",
+}
+
 LOCATION_PATTERNS = [
     (r"\bus[\s-]?(?:only|based)\b|\bunited states only\b", "US only"),
     (r"\bcanada only\b|\bcanad(?:a|ian)[\s-]?based\b", "Canada only"),
@@ -266,11 +273,22 @@ def find_location_note(text: str, location: str) -> str | None:
 def extract(job: dict) -> dict:
     title = job["position"]
     body = job["description"]
-    text = f"{title}\n{' '.join(job.get('tags', []))}\n{body}"
+    # Etiketler kasıtlı olarak dışarıda. Remote OK ilanlara ilanla alakasız
+    # etiketler ekliyor — bir pazarlama asistanı ilanının etiketleri arasında
+    # "golang" geçebiliyor. Etiketler dahil edildiğinde 118 ilan golang
+    # eşleşmesi veriyordu; sadece başlık + ilan metnine bakınca gerçek sayıya
+    # iniyor. Etiketler çıktıda saklanıyor ama çıkarımda kullanılmıyor.
+    text = f"{title}\n{body}"
 
     skills = find_skills(text)
     role = find_role(title, body)
-    technical = role not in NON_TECHNICAL_ROLES and len(skills) >= 2
+    if role in NON_TECHNICAL_ROLES:
+        technical = False
+    elif role in TECHNICAL_ROLES:
+        technical = True
+    else:
+        # rol belirsiz ("other"): ancak birden fazla teknik beceri geçiyorsa say
+        technical = len(skills) >= 2
 
     return {
         "id": job["id"],
@@ -281,7 +299,7 @@ def extract(job: dict) -> dict:
         "salary_max": job.get("salary_max"),
         "remoteok_tags": job.get("tags", []),
         "is_technical": technical,
-        "skills": skills if technical else [],
+        "skills": skills,
         "seniority": find_seniority(title, body),
         "years_required": find_years(body),
         "work_mode": find_work_mode(body, job.get("location", "")),

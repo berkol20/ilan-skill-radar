@@ -14,7 +14,6 @@
     ],
     "is_technical": true,
     "skills": [
-      "go",
       "kubernetes",
       "machine learning"
     ],
@@ -45,7 +44,9 @@
       "digital nomad"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "figma"
+    ],
     "seniority": "lead",
     "years_required": null,
     "work_mode": "unspecified",
@@ -271,7 +272,7 @@
       "medical",
       "digital nomad"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "lead",
     "years_required": null,
@@ -411,7 +412,7 @@
       "engineer",
       "digital nomad"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "lead",
     "years_required": null,
@@ -557,7 +558,7 @@
       "quality assurance",
       "digital nomad"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "junior",
     "years_required": null,
@@ -589,7 +590,7 @@
       "backend",
       "digital nomad"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": null,
@@ -685,7 +686,7 @@
       "analyst",
       "dev"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "lead",
     "years_required": 3,
@@ -708,7 +709,7 @@
       "engineer",
       "digital nomad"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": null,
@@ -731,8 +732,10 @@
       "engineer",
       "digital nomad"
     ],
-    "is_technical": false,
-    "skills": [],
+    "is_technical": true,
+    "skills": [
+      "go"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -840,7 +843,6 @@
     "is_technical": true,
     "skills": [
       "docker",
-      "go",
       "java",
       "kubernetes"
     ],
@@ -899,7 +901,7 @@
       "part time",
       "vfx"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": null,
@@ -1039,7 +1041,6 @@
     ],
     "is_technical": true,
     "skills": [
-      "go",
       "google cloud",
       "postgresql",
       "rails",
@@ -1077,7 +1078,7 @@
       "engineer",
       "ecommerce"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": null,
@@ -1114,7 +1115,11 @@
       "digital nomad"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "figma",
+      "looker",
+      "salesforce"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -1166,7 +1171,6 @@
     ],
     "is_technical": true,
     "skills": [
-      "go",
       "power bi",
       "python",
       "sql",
@@ -1255,7 +1259,7 @@
       "full time",
       "digital nomad"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": null,
@@ -1329,7 +1333,7 @@
       "ops",
       "digital nomad"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": 3,
@@ -1382,7 +1386,9 @@
       "excel"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "salesforce"
+    ],
     "seniority": "unspecified",
     "years_required": 2,
     "work_mode": "remote",
@@ -1582,13 +1588,8 @@
       "linux",
       "speech"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "java",
-      "linux",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -1764,13 +1765,8 @@
       "admin",
       "full time"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "java",
-      "linux",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -1827,11 +1823,8 @@
       "hr",
       "payroll"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "python"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": 5,
     "work_mode": "remote",
@@ -1856,8 +1849,10 @@
       "backend",
       "digital nomad"
     ],
-    "is_technical": false,
-    "skills": [],
+    "is_technical": true,
+    "skills": [
+      "go"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -2023,7 +2018,9 @@
       "part time"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "figma"
+    ],
     "seniority": "unspecified",
     "years_required": 3,
     "work_mode": "remote",
@@ -2112,7 +2109,9 @@
       "full time"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "sql"
+    ],
     "seniority": "unspecified",
     "years_required": 3,
     "work_mode": "remote",
@@ -2168,7 +2167,6 @@
     ],
     "is_technical": true,
     "skills": [
-      "go",
       "looker",
       "machine learning",
       "numpy",
@@ -2484,11 +2482,8 @@
       "video",
       "social media"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "senior",
     "years_required": null,
     "work_mode": "remote",
@@ -2577,7 +2572,9 @@
       "excel"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "salesforce"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -2635,11 +2632,8 @@
       "video",
       "social media"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": 3,
     "work_mode": "remote",
@@ -2747,7 +2741,7 @@
       "cloud",
       "math"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": null,
@@ -3121,14 +3115,8 @@
       "accounting",
       "testing"
     ],
-    "is_technical": true,
-    "skills": [
-      "agile",
-      "go",
-      "python",
-      "react",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -3153,11 +3141,8 @@
       "sales",
       "digital nomad"
     ],
-    "is_technical": true,
-    "skills": [
-      "android",
-      "ios"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -3189,7 +3174,9 @@
       "digital nomad"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "llm"
+    ],
     "seniority": "junior",
     "years_required": 2,
     "work_mode": "onsite",
@@ -3251,7 +3238,6 @@
     ],
     "is_technical": true,
     "skills": [
-      "go",
       "react",
       "react native"
     ],
@@ -3493,10 +3479,7 @@
       "full time"
     ],
     "is_technical": true,
-    "skills": [
-      "go",
-      "seo"
-    ],
+    "skills": [],
     "seniority": "senior",
     "years_required": null,
     "work_mode": "onsite",
@@ -3599,7 +3582,7 @@
       "math",
       "assembly"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": null,
@@ -3672,11 +3655,8 @@
       "testing",
       "admin"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "seo"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "lead",
     "years_required": null,
     "work_mode": "unspecified",
@@ -3760,11 +3740,8 @@
       "teaching",
       "coordinator"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "ruby"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "junior",
     "years_required": null,
     "work_mode": "unspecified",
@@ -3904,11 +3881,8 @@
       "internship",
       "legal"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -4008,7 +3982,7 @@
       "video",
       "engineer"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": null,
@@ -4028,7 +4002,7 @@
       "golang",
       "engineer"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "lead",
     "years_required": null,
@@ -4060,7 +4034,9 @@
       "digital nomad"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "data engineering"
+    ],
     "seniority": "lead",
     "years_required": null,
     "work_mode": "remote",
@@ -4088,7 +4064,9 @@
       "engineer"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "power bi"
+    ],
     "seniority": "unspecified",
     "years_required": 5,
     "work_mode": "remote",
@@ -4110,7 +4088,7 @@
       "engineer",
       "backend"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "senior",
     "years_required": null,
@@ -4163,7 +4141,7 @@
       "golang",
       "engineer"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": null,
@@ -4199,7 +4177,10 @@
       "digital nomad"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "machine learning",
+      "microservices"
+    ],
     "seniority": "lead",
     "years_required": 2,
     "work_mode": "remote",
@@ -4228,7 +4209,7 @@
       "recruiter",
       "full time"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": null,
@@ -4251,7 +4232,7 @@
       "engineer",
       "digital nomad"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": null,
@@ -4452,7 +4433,9 @@
       "illustrator"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "figma"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -4551,15 +4534,8 @@
       "api",
       "teaching"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "java",
-      "linux",
-      "react",
-      "salesforce",
-      "seo"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -4609,7 +4585,7 @@
       "assembly",
       "engineer"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": null,
@@ -4758,7 +4734,7 @@
       "junior",
       "sys admin"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "lead",
     "years_required": 8,
@@ -4818,11 +4794,8 @@
       "senior",
       "web dev"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "ruby"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -4847,7 +4820,7 @@
       "engineer",
       "digital nomad"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": 3,
@@ -4933,7 +4906,6 @@
     ],
     "is_technical": true,
     "skills": [
-      "go",
       "llm",
       "machine learning"
     ],
@@ -4990,11 +4962,8 @@
       "react",
       "infosec"
     ],
-    "is_technical": true,
-    "skills": [
-      "react",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -5101,16 +5070,8 @@
       "virtual assistant",
       "microsoft"
     ],
-    "is_technical": true,
-    "skills": [
-      "css",
-      "django",
-      "git",
-      "html",
-      "java",
-      "javascript",
-      "python"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -5492,7 +5453,7 @@
       "golang",
       "coordinator"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "junior",
     "years_required": null,
@@ -5599,10 +5560,7 @@
       "senior"
     ],
     "is_technical": true,
-    "skills": [
-      "go",
-      "ruby"
-    ],
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "onsite",
@@ -5653,14 +5611,8 @@
       "video",
       "excel"
     ],
-    "is_technical": true,
+    "is_technical": false,
     "skills": [
-      "agile",
-      "css",
-      "go",
-      "html",
-      "javascript",
-      "jira",
       "vite"
     ],
     "seniority": "unspecified",
@@ -5774,11 +5726,8 @@
       "senior",
       "web dev"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "ruby"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "onsite",
@@ -5832,7 +5781,9 @@
       "ruby"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "rails"
+    ],
     "seniority": "unspecified",
     "years_required": 2,
     "work_mode": "unspecified",
@@ -5856,13 +5807,7 @@
       "devops"
     ],
     "is_technical": true,
-    "skills": [
-      "docker",
-      "git",
-      "nosql",
-      "python",
-      "typescript"
-    ],
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -5884,14 +5829,8 @@
       "git",
       "typescript"
     ],
-    "is_technical": true,
-    "skills": [
-      "docker",
-      "git",
-      "nosql",
-      "python",
-      "typescript"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -5913,14 +5852,8 @@
       "git",
       "typescript"
     ],
-    "is_technical": true,
-    "skills": [
-      "docker",
-      "git",
-      "nosql",
-      "python",
-      "typescript"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -5979,13 +5912,8 @@
       "payroll",
       "legal"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "jira",
-      "python",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "lead",
     "years_required": null,
     "work_mode": "unspecified",
@@ -6039,13 +5967,8 @@
       "content writing",
       "sales"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "jira",
-      "python",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -6090,12 +6013,8 @@
       "photoshop",
       "illustrator"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "jira",
-      "python"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "junior",
     "years_required": null,
     "work_mode": "unspecified",
@@ -6150,7 +6069,9 @@
       "sales"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "salesforce"
+    ],
     "seniority": "unspecified",
     "years_required": 3,
     "work_mode": "onsite",
@@ -6238,7 +6159,11 @@
       "golang"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "bash",
+      "jira",
+      "python"
+    ],
     "seniority": "unspecified",
     "years_required": 3,
     "work_mode": "remote",
@@ -6297,13 +6222,8 @@
       "payroll",
       "legal"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "jira",
-      "python",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": 3,
     "work_mode": "remote",
@@ -6362,13 +6282,8 @@
       "payroll",
       "legal"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "jira",
-      "python",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "lead",
     "years_required": 2,
     "work_mode": "remote",
@@ -6416,11 +6331,8 @@
       "consulting",
       "speech"
     ],
-    "is_technical": true,
+    "is_technical": false,
     "skills": [
-      "go",
-      "jira",
-      "python",
       "typescript"
     ],
     "seniority": "unspecified",
@@ -6471,12 +6383,8 @@
       "speech",
       "engineer"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "jira",
-      "python"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "lead",
     "years_required": 2,
     "work_mode": "unspecified",
@@ -6540,7 +6448,10 @@
       "illustrator"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "css",
+      "html"
+    ],
     "seniority": "junior",
     "years_required": null,
     "work_mode": "remote",
@@ -6604,15 +6515,9 @@
       "hr",
       "travel"
     ],
-    "is_technical": true,
+    "is_technical": false,
     "skills": [
-      "go",
-      "postgresql",
-      "power bi",
-      "python",
-      "salesforce",
-      "seo",
-      "sql"
+      "power bi"
     ],
     "seniority": "unspecified",
     "years_required": 3,
@@ -6884,19 +6789,8 @@
       "recruiter",
       "finance"
     ],
-    "is_technical": true,
-    "skills": [
-      "agile",
-      "angular",
-      "css",
-      "git",
-      "html",
-      "java",
-      "javascript",
-      "node.js",
-      "python",
-      "react"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -6955,15 +6849,7 @@
       "medical"
     ],
     "is_technical": true,
-    "skills": [
-      "css",
-      "django",
-      "git",
-      "html",
-      "java",
-      "javascript",
-      "python"
-    ],
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -7007,7 +6893,6 @@
       "ci/cd",
       "data engineering",
       "git",
-      "go",
       "python",
       "sql"
     ],
@@ -7053,14 +6938,8 @@
     "skills": [
       "aws",
       "ci/cd",
-      "css",
-      "django",
       "flask",
-      "git",
       "github actions",
-      "html",
-      "java",
-      "javascript",
       "numpy",
       "pandas",
       "python",
@@ -7222,16 +7101,8 @@
       "photoshop",
       "illustrator"
     ],
-    "is_technical": true,
-    "skills": [
-      "css",
-      "django",
-      "git",
-      "html",
-      "java",
-      "javascript",
-      "python"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -7296,25 +7167,17 @@
     ],
     "is_technical": true,
     "skills": [
-      "agile",
       "android",
       "angular",
-      "css",
       "git",
-      "graphql",
       "ios",
       "javascript",
       "linux",
       "mongodb",
       "mysql",
       "node.js",
-      "nosql",
       "php",
-      "python",
-      "react",
-      "rest api",
-      "sql",
-      "typescript"
+      "rest api"
     ],
     "seniority": "unspecified",
     "years_required": null,
@@ -7395,16 +7258,8 @@
       "virtual assistant",
       "microsoft"
     ],
-    "is_technical": true,
-    "skills": [
-      "css",
-      "django",
-      "git",
-      "html",
-      "java",
-      "javascript",
-      "python"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -7458,13 +7313,9 @@
     ],
     "is_technical": true,
     "skills": [
-      "agile",
-      "angular",
       "aws",
       "azure",
-      "css",
       "fastapi",
-      "git",
       "google cloud",
       "graphql",
       "javascript",
@@ -7553,8 +7404,10 @@
       "python",
       "consulting"
     ],
-    "is_technical": false,
-    "skills": [],
+    "is_technical": true,
+    "skills": [
+      "python"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -7689,14 +7542,7 @@
       "golang"
     ],
     "is_technical": true,
-    "skills": [
-      "docker",
-      "go",
-      "postgresql",
-      "python",
-      "react",
-      "typescript"
-    ],
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -7742,10 +7588,7 @@
     "is_technical": true,
     "skills": [
       "agile",
-      "go",
-      "hadoop",
-      "jira",
-      "python"
+      "jira"
     ],
     "seniority": "unspecified",
     "years_required": 4,
@@ -7798,15 +7641,8 @@
       "engineer",
       "project manager"
     ],
-    "is_technical": true,
-    "skills": [
-      "django",
-      "javascript",
-      "postgresql",
-      "python",
-      "react",
-      "typescript"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -7859,13 +7695,8 @@
       "ecommerce",
       "shopify"
     ],
-    "is_technical": true,
-    "skills": [
-      "git",
-      "javascript",
-      "python",
-      "react"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -8018,7 +7849,12 @@
       "part time"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "javascript",
+      "next.js",
+      "power bi",
+      "react"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -8078,16 +7914,8 @@
       "node.js",
       "senior"
     ],
-    "is_technical": true,
-    "skills": [
-      "docker",
-      "git",
-      "javascript",
-      "node.js",
-      "python",
-      "react",
-      "typescript"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -8146,11 +7974,8 @@
       "digital nomad",
       "c"
     ],
-    "is_technical": true,
-    "skills": [
-      "hadoop",
-      "python"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -8209,7 +8034,9 @@
       "sales"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "salesforce"
+    ],
     "seniority": "lead",
     "years_required": null,
     "work_mode": "remote",
@@ -8311,10 +8138,8 @@
     "is_technical": true,
     "skills": [
       "docker",
-      "git",
       "javascript",
       "node.js",
-      "python",
       "react",
       "redux",
       "typescript"
@@ -8437,10 +8262,7 @@
       "aws",
       "data engineering",
       "git",
-      "javascript",
       "power bi",
-      "python",
-      "react",
       "sql"
     ],
     "seniority": "unspecified",
@@ -8551,15 +8373,8 @@
       "testing",
       "golang"
     ],
-    "is_technical": true,
-    "skills": [
-      "docker",
-      "go",
-      "postgresql",
-      "python",
-      "react",
-      "typescript"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "junior",
     "years_required": 1,
     "work_mode": "unspecified",
@@ -8602,7 +8417,7 @@
       "accounting",
       "excel"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "unspecified",
     "years_required": 1,
@@ -8738,12 +8553,9 @@
       "microsoft",
       "excel"
     ],
-    "is_technical": true,
+    "is_technical": false,
     "skills": [
-      "git",
-      "javascript",
-      "python",
-      "react"
+      "python"
     ],
     "seniority": "unspecified",
     "years_required": null,
@@ -8790,7 +8602,6 @@
       "aws",
       "azure",
       "computer vision",
-      "go",
       "google cloud",
       "hadoop",
       "machine learning",
@@ -8939,14 +8750,8 @@
       "legal",
       "accounting"
     ],
-    "is_technical": true,
-    "skills": [
-      "agile",
-      "go",
-      "python",
-      "react",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -9010,15 +8815,8 @@
       "hr",
       "travel"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "postgresql",
-      "python",
-      "salesforce",
-      "seo",
-      "sql"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -9082,15 +8880,8 @@
       "hr",
       "travel"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "postgresql",
-      "python",
-      "salesforce",
-      "seo",
-      "sql"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -9164,7 +8955,10 @@
       "digital nomad"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "python",
+      "sql"
+    ],
     "seniority": "junior",
     "years_required": null,
     "work_mode": "remote",
@@ -9205,11 +8999,8 @@
       "content writing",
       "full time"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "python"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -9232,7 +9023,10 @@
       "excel"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "python",
+      "sql"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -9309,9 +9103,7 @@
       "azure",
       "data engineering",
       "databricks",
-      "go",
       "python",
-      "ruby",
       "snowflake",
       "sql"
     ],
@@ -9366,7 +9158,11 @@
       "mobile"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "css",
+      "figma",
+      "html"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -9427,14 +9223,8 @@
       "video",
       "coordinator"
     ],
-    "is_technical": true,
-    "skills": [
-      "ansible",
-      "linux",
-      "php",
-      "python",
-      "sql"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "lead",
     "years_required": null,
     "work_mode": "remote",
@@ -9498,14 +9288,8 @@
       "hr",
       "testing"
     ],
-    "is_technical": true,
-    "skills": [
-      "ansible",
-      "linux",
-      "php",
-      "python",
-      "sql"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": 3,
     "work_mode": "onsite",
@@ -9621,13 +9405,8 @@
       "content writing",
       "social media"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "postgresql",
-      "python",
-      "sql"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -9742,12 +9521,8 @@
       "video",
       "sales"
     ],
-    "is_technical": true,
-    "skills": [
-      "agile",
-      "linux",
-      "python"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -9800,13 +9575,8 @@
       "content writing",
       "social media"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "postgresql",
-      "python",
-      "sql"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -9857,12 +9627,8 @@
       "recruiter",
       "linux"
     ],
-    "is_technical": true,
-    "skills": [
-      "agile",
-      "linux",
-      "python"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -9976,7 +9742,14 @@
       "linux"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "ansible",
+      "linux",
+      "mysql",
+      "php",
+      "python",
+      "sql"
+    ],
     "seniority": "unspecified",
     "years_required": 3,
     "work_mode": "unspecified",
@@ -10040,14 +9813,8 @@
       "hr",
       "testing"
     ],
-    "is_technical": true,
-    "skills": [
-      "ansible",
-      "linux",
-      "php",
-      "python",
-      "sql"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": 5,
     "work_mode": "unspecified",
@@ -10101,12 +9868,8 @@
       "video",
       "sales"
     ],
-    "is_technical": true,
-    "skills": [
-      "agile",
-      "linux",
-      "python"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -10292,14 +10055,8 @@
       "accounting",
       "testing"
     ],
-    "is_technical": true,
-    "skills": [
-      "agile",
-      "go",
-      "python",
-      "react",
-      "salesforce"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -10390,19 +10147,8 @@
       "data entry",
       "full time"
     ],
-    "is_technical": true,
-    "skills": [
-      "css",
-      "docker",
-      "git",
-      "go",
-      "html",
-      "javascript",
-      "linux",
-      "react",
-      "salesforce",
-      "typescript"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -10445,7 +10191,9 @@
       "illustrator"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "flutter"
+    ],
     "seniority": "unspecified",
     "years_required": 3,
     "work_mode": "unspecified",
@@ -10474,7 +10222,9 @@
       "javascript"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "javascript"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -10498,8 +10248,10 @@
       "infosec",
       "javascript"
     ],
-    "is_technical": false,
-    "skills": [],
+    "is_technical": true,
+    "skills": [
+      "javascript"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -10592,7 +10344,9 @@
       "engineer"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "javascript"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -10676,7 +10430,6 @@
     "skills": [
       "agile",
       "css",
-      "go",
       "html",
       "javascript",
       "jira",
@@ -10875,16 +10628,7 @@
     "is_technical": true,
     "skills": [
       "agile",
-      "css",
-      "docker",
-      "git",
-      "go",
-      "html",
-      "javascript",
-      "linux",
-      "power bi",
-      "react",
-      "typescript"
+      "power bi"
     ],
     "seniority": "unspecified",
     "years_required": 1,
@@ -10945,7 +10689,9 @@
       "junior"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "salesforce"
+    ],
     "seniority": "junior",
     "years_required": 1,
     "work_mode": "remote",
@@ -10973,7 +10719,7 @@
       "content writing",
       "medical"
     ],
-    "is_technical": false,
+    "is_technical": true,
     "skills": [],
     "seniority": "mid",
     "years_required": null,
@@ -11030,7 +10776,6 @@
       "docker",
       "figma",
       "git",
-      "go",
       "html",
       "javascript",
       "linux",
@@ -11277,12 +11022,7 @@
     "skills": [
       "aws",
       "azure",
-      "css",
-      "google cloud",
-      "html",
-      "javascript",
-      "salesforce",
-      "seo"
+      "google cloud"
     ],
     "seniority": "unspecified",
     "years_required": 5,
@@ -11343,19 +11083,8 @@
       "junior",
       "project manager"
     ],
-    "is_technical": true,
-    "skills": [
-      "css",
-      "docker",
-      "git",
-      "go",
-      "html",
-      "javascript",
-      "linux",
-      "react",
-      "salesforce",
-      "typescript"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -11383,12 +11112,8 @@
       "digital nomad",
       "dev"
     ],
-    "is_technical": true,
-    "skills": [
-      "git",
-      "javascript",
-      "react"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -11474,12 +11199,8 @@
       "digital nomad",
       "dev"
     ],
-    "is_technical": true,
-    "skills": [
-      "git",
-      "javascript",
-      "react"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -11650,14 +11371,8 @@
       "golang",
       "medical"
     ],
-    "is_technical": true,
-    "skills": [
-      "css",
-      "go",
-      "html",
-      "javascript",
-      "react"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": 4,
     "work_mode": "remote",
@@ -11690,13 +11405,8 @@
       "digital nomad",
       "teaching"
     ],
-    "is_technical": true,
-    "skills": [
-      "css",
-      "html",
-      "javascript",
-      "react"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -11775,14 +11485,8 @@
       "golang",
       "medical"
     ],
-    "is_technical": true,
-    "skills": [
-      "css",
-      "go",
-      "html",
-      "javascript",
-      "react"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -12020,8 +11724,10 @@
       "javascript",
       "education"
     ],
-    "is_technical": false,
-    "skills": [],
+    "is_technical": true,
+    "skills": [
+      "javascript"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -12056,12 +11762,8 @@
       "medical",
       "digital nomad"
     ],
-    "is_technical": true,
-    "skills": [
-      "css",
-      "html",
-      "javascript"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": 3,
     "work_mode": "unspecified",
@@ -12092,7 +11794,14 @@
       "ops"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "c#",
+      "css",
+      "html",
+      "javascript",
+      "power bi",
+      "sql"
+    ],
     "seniority": "unspecified",
     "years_required": 2,
     "work_mode": "unspecified",
@@ -12316,15 +12025,7 @@
     ],
     "is_technical": true,
     "skills": [
-      "agile",
-      "docker",
-      "git",
-      "javascript",
-      "jira",
-      "postgresql",
-      "python",
-      "salesforce",
-      "seo"
+      "agile"
     ],
     "seniority": "unspecified",
     "years_required": 2,
@@ -12533,16 +12234,8 @@
       "testing",
       "mobile"
     ],
-    "is_technical": true,
-    "skills": [
-      "git",
-      "javascript",
-      "jira",
-      "postgresql",
-      "python",
-      "salesforce",
-      "seo"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": 2,
     "work_mode": "unspecified",
@@ -12670,17 +12363,8 @@
       "accounting",
       "docker"
     ],
-    "is_technical": true,
-    "skills": [
-      "docker",
-      "git",
-      "javascript",
-      "jira",
-      "postgresql",
-      "python",
-      "salesforce",
-      "seo"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": 1,
     "work_mode": "unspecified",
@@ -12753,16 +12437,8 @@
       "mobile",
       "accounting"
     ],
-    "is_technical": true,
-    "skills": [
-      "git",
-      "javascript",
-      "jira",
-      "postgresql",
-      "python",
-      "salesforce",
-      "seo"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "lead",
     "years_required": null,
     "work_mode": "unspecified",
@@ -12866,12 +12542,8 @@
       "legal",
       "full time"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "javascript",
-      "react"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -12916,12 +12588,8 @@
       "javascript",
       "data entry"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "javascript",
-      "react"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -12980,13 +12648,8 @@
       "game dev",
       "testing"
     ],
-    "is_technical": true,
-    "skills": [
-      "flutter",
-      "javascript",
-      "python",
-      "typescript"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -13100,7 +12763,9 @@
       "part time"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "sap"
+    ],
     "seniority": "unspecified",
     "years_required": 4,
     "work_mode": "remote",
@@ -13157,7 +12822,9 @@
       "part time"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "sap"
+    ],
     "seniority": "unspecified",
     "years_required": 4,
     "work_mode": "remote",
@@ -13214,7 +12881,9 @@
       "part time"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "sap"
+    ],
     "seniority": "unspecified",
     "years_required": 4,
     "work_mode": "remote",
@@ -13271,7 +12940,9 @@
       "part time"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "sap"
+    ],
     "seniority": "unspecified",
     "years_required": 4,
     "work_mode": "remote",
@@ -13322,7 +12993,9 @@
       "shopify"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "sap"
+    ],
     "seniority": "unspecified",
     "years_required": 4,
     "work_mode": "remote",
@@ -13380,7 +13053,9 @@
       "mobile"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "sap"
+    ],
     "seniority": "unspecified",
     "years_required": 4,
     "work_mode": "remote",
@@ -13437,7 +13112,9 @@
       "part time"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "sap"
+    ],
     "seniority": "unspecified",
     "years_required": 4,
     "work_mode": "remote",
@@ -13484,7 +13161,6 @@
     "is_technical": true,
     "skills": [
       "figma",
-      "go",
       "javascript",
       "next.js",
       "react",
@@ -13563,17 +13239,9 @@
       "accounting",
       "docker"
     ],
-    "is_technical": true,
+    "is_technical": false,
     "skills": [
-      "docker",
-      "git",
-      "javascript",
-      "jira",
-      "postgresql",
-      "power bi",
-      "python",
-      "salesforce",
-      "seo"
+      "power bi"
     ],
     "seniority": "unspecified",
     "years_required": 5,
@@ -13634,13 +13302,8 @@
       "testing",
       "recruiter"
     ],
-    "is_technical": true,
-    "skills": [
-      "flutter",
-      "javascript",
-      "python",
-      "typescript"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "hybrid",
@@ -13720,8 +13383,10 @@
       "stats",
       "digital nomad"
     ],
-    "is_technical": false,
-    "skills": [],
+    "is_technical": true,
+    "skills": [
+      "tableau"
+    ],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "remote",
@@ -13849,14 +13514,8 @@
       "consulting",
       "data annotation"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "java",
-      "mongodb",
-      "nosql",
-      "sql"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -13899,14 +13558,8 @@
       "consulting",
       "data annotation"
     ],
-    "is_technical": true,
-    "skills": [
-      "go",
-      "java",
-      "mongodb",
-      "nosql",
-      "sql"
-    ],
+    "is_technical": false,
+    "skills": [],
     "seniority": "unspecified",
     "years_required": null,
     "work_mode": "unspecified",
@@ -14012,12 +13665,7 @@
       "data science"
     ],
     "is_technical": true,
-    "skills": [
-      "go",
-      "html",
-      "ios",
-      "swift"
-    ],
+    "skills": [],
     "seniority": "senior",
     "years_required": 5,
     "work_mode": "unspecified",
@@ -14059,7 +13707,10 @@
       "digital nomad"
     ],
     "is_technical": false,
-    "skills": [],
+    "skills": [
+      "agile",
+      "jira"
+    ],
     "seniority": "unspecified",
     "years_required": 2,
     "work_mode": "remote",
