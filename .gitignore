@@ -5,3 +5,6 @@ __pycache__/
 venv/
 .DS_Store
 .streamlit/
+
+# Ham ilan metinleri repoda yayınlanmıyor
+data/raw_jobs.json

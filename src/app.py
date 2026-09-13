@@ -63,7 +63,7 @@ with left:
         )
         .properties(height=520)
     )
-    st.altair_chart(chart, use_container_width=True)
+    st.altair_chart(chart, width="stretch")
 
 with right:
     st.subheader("Seviye dağılımı")
@@ -75,12 +75,12 @@ with right:
         .mark_arc(innerRadius=60)
         .encode(theta="ilan:Q", color=alt.Color("seviye:N", title=None), tooltip=["seviye", "ilan"])
         .properties(height=240),
-        use_container_width=True,
+        width="stretch",
     )
 
     st.subheader("Rol ailesi")
     roles = pd.DataFrame(analysis["role_family"].items(), columns=["rol", "ilan"])
-    st.dataframe(roles, hide_index=True, use_container_width=True, height=240)
+    st.dataframe(roles, hide_index=True, width="stretch", height=240)
 
 st.divider()
 
@@ -102,7 +102,7 @@ if not edges.empty:
         )
         .properties(height=480)
     )
-    st.altair_chart(heat, use_container_width=True)
+    st.altair_chart(heat, width="stretch")
 
     st.markdown("**En güçlü 15 birliktelik**")
     st.dataframe(
@@ -110,7 +110,7 @@ if not edges.empty:
         .head(15)[["source", "target", "count", "lift"]]
         .reset_index(drop=True),
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
 st.divider()
@@ -131,7 +131,7 @@ with col_a:
                 tooltip=["skill", "median_usd", "n"],
             )
             .properties(height=420),
-            use_container_width=True,
+            width="stretch",
         )
     else:
         st.info("Yeterli maaş verisi yok.")
@@ -141,12 +141,12 @@ with col_b:
     st.dataframe(
         pd.DataFrame(analysis["work_mode"].items(), columns=["çalışma şekli", "ilan"]),
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     st.dataframe(
         pd.DataFrame(analysis["location_notes"].items(), columns=["konum kısıtı", "ilan"]),
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
 st.divider()
@@ -161,6 +161,6 @@ if skill_filter:
 st.dataframe(
     view[["position", "company", "seniority", "role_family", "years_required", "skills", "url"]],
     hide_index=True,
-    use_container_width=True,
+    width="stretch",
     column_config={"url": st.column_config.LinkColumn("ilan", display_text="aç")},
 )
