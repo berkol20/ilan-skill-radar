@@ -1,0 +1,887 @@
+{
+  "counts": {
+    "total_jobs": 300,
+    "technical_jobs": 125,
+    "unique_skills": 89,
+    "avg_skills_per_job": 6.25,
+    "with_salary": 5
+  },
+  "top_skills": [
+    {
+      "skill": "python",
+      "count": 72
+    },
+    {
+      "skill": "go",
+      "count": 60
+    },
+    {
+      "skill": "javascript",
+      "count": 50
+    },
+    {
+      "skill": "react",
+      "count": 38
+    },
+    {
+      "skill": "git",
+      "count": 37
+    },
+    {
+      "skill": "sql",
+      "count": 31
+    },
+    {
+      "skill": "css",
+      "count": 28
+    },
+    {
+      "skill": "html",
+      "count": 28
+    },
+    {
+      "skill": "salesforce",
+      "count": 26
+    },
+    {
+      "skill": "typescript",
+      "count": 25
+    },
+    {
+      "skill": "docker",
+      "count": 18
+    },
+    {
+      "skill": "postgresql",
+      "count": 18
+    },
+    {
+      "skill": "java",
+      "count": 17
+    },
+    {
+      "skill": "agile",
+      "count": 16
+    },
+    {
+      "skill": "rest api",
+      "count": 15
+    },
+    {
+      "skill": "linux",
+      "count": 15
+    },
+    {
+      "skill": "jira",
+      "count": 15
+    },
+    {
+      "skill": "aws",
+      "count": 14
+    },
+    {
+      "skill": "seo",
+      "count": 13
+    },
+    {
+      "skill": "azure",
+      "count": 12
+    },
+    {
+      "skill": "machine learning",
+      "count": 11
+    },
+    {
+      "skill": "google cloud",
+      "count": 11
+    },
+    {
+      "skill": "nosql",
+      "count": 10
+    },
+    {
+      "skill": "power bi",
+      "count": 10
+    },
+    {
+      "skill": "angular",
+      "count": 8
+    }
+  ],
+  "co_occurrence": [
+    {
+      "source": "javascript",
+      "target": "react",
+      "count": 29,
+      "lift": 1.91
+    },
+    {
+      "source": "git",
+      "target": "javascript",
+      "count": 29,
+      "lift": 1.96
+    },
+    {
+      "source": "go",
+      "target": "python",
+      "count": 28,
+      "lift": 0.81
+    },
+    {
+      "source": "css",
+      "target": "javascript",
+      "count": 28,
+      "lift": 2.5
+    },
+    {
+      "source": "git",
+      "target": "python",
+      "count": 27,
+      "lift": 1.27
+    },
+    {
+      "source": "python",
+      "target": "sql",
+      "count": 27,
+      "lift": 1.51
+    },
+    {
+      "source": "html",
+      "target": "javascript",
+      "count": 27,
+      "lift": 2.41
+    },
+    {
+      "source": "css",
+      "target": "html",
+      "count": 26,
+      "lift": 4.15
+    },
+    {
+      "source": "javascript",
+      "target": "python",
+      "count": 25,
+      "lift": 0.87
+    },
+    {
+      "source": "go",
+      "target": "react",
+      "count": 18,
+      "lift": 0.99
+    },
+    {
+      "source": "go",
+      "target": "salesforce",
+      "count": 18,
+      "lift": 1.44
+    },
+    {
+      "source": "git",
+      "target": "react",
+      "count": 18,
+      "lift": 1.6
+    },
+    {
+      "source": "python",
+      "target": "react",
+      "count": 17,
+      "lift": 0.78
+    },
+    {
+      "source": "python",
+      "target": "typescript",
+      "count": 17,
+      "lift": 1.18
+    },
+    {
+      "source": "css",
+      "target": "git",
+      "count": 17,
+      "lift": 2.05
+    },
+    {
+      "source": "javascript",
+      "target": "typescript",
+      "count": 16,
+      "lift": 1.6
+    },
+    {
+      "source": "react",
+      "target": "typescript",
+      "count": 16,
+      "lift": 2.11
+    },
+    {
+      "source": "css",
+      "target": "react",
+      "count": 16,
+      "lift": 1.88
+    },
+    {
+      "source": "go",
+      "target": "sql",
+      "count": 15,
+      "lift": 1.01
+    },
+    {
+      "source": "python",
+      "target": "salesforce",
+      "count": 15,
+      "lift": 1.0
+    },
+    {
+      "source": "git",
+      "target": "html",
+      "count": 15,
+      "lift": 1.81
+    },
+    {
+      "source": "postgresql",
+      "target": "python",
+      "count": 15,
+      "lift": 1.45
+    },
+    {
+      "source": "docker",
+      "target": "git",
+      "count": 14,
+      "lift": 2.63
+    },
+    {
+      "source": "git",
+      "target": "typescript",
+      "count": 14,
+      "lift": 1.89
+    },
+    {
+      "source": "html",
+      "target": "react",
+      "count": 14,
+      "lift": 1.64
+    },
+    {
+      "source": "docker",
+      "target": "typescript",
+      "count": 13,
+      "lift": 3.61
+    },
+    {
+      "source": "jira",
+      "target": "python",
+      "count": 13,
+      "lift": 1.5
+    },
+    {
+      "source": "go",
+      "target": "javascript",
+      "count": 12,
+      "lift": 0.5
+    },
+    {
+      "source": "agile",
+      "target": "python",
+      "count": 12,
+      "lift": 1.3
+    },
+    {
+      "source": "java",
+      "target": "python",
+      "count": 11,
+      "lift": 1.12
+    },
+    {
+      "source": "salesforce",
+      "target": "seo",
+      "count": 11,
+      "lift": 4.07
+    },
+    {
+      "source": "docker",
+      "target": "python",
+      "count": 11,
+      "lift": 1.06
+    },
+    {
+      "source": "git",
+      "target": "rest api",
+      "count": 10,
+      "lift": 2.25
+    },
+    {
+      "source": "git",
+      "target": "sql",
+      "count": 10,
+      "lift": 1.09
+    },
+    {
+      "source": "aws",
+      "target": "python",
+      "count": 10,
+      "lift": 1.24
+    },
+    {
+      "source": "go",
+      "target": "typescript",
+      "count": 10,
+      "lift": 0.83
+    },
+    {
+      "source": "react",
+      "target": "rest api",
+      "count": 10,
+      "lift": 2.19
+    },
+    {
+      "source": "css",
+      "target": "python",
+      "count": 10,
+      "lift": 0.62
+    },
+    {
+      "source": "go",
+      "target": "jira",
+      "count": 10,
+      "lift": 1.39
+    },
+    {
+      "source": "css",
+      "target": "rest api",
+      "count": 10,
+      "lift": 2.98
+    },
+    {
+      "source": "javascript",
+      "target": "rest api",
+      "count": 10,
+      "lift": 1.67
+    },
+    {
+      "source": "docker",
+      "target": "javascript",
+      "count": 10,
+      "lift": 1.39
+    },
+    {
+      "source": "azure",
+      "target": "sql",
+      "count": 9,
+      "lift": 3.02
+    },
+    {
+      "source": "azure",
+      "target": "python",
+      "count": 9,
+      "lift": 1.3
+    },
+    {
+      "source": "java",
+      "target": "javascript",
+      "count": 9,
+      "lift": 1.32
+    },
+    {
+      "source": "machine learning",
+      "target": "python",
+      "count": 9,
+      "lift": 1.42
+    },
+    {
+      "source": "go",
+      "target": "postgresql",
+      "count": 9,
+      "lift": 1.04
+    },
+    {
+      "source": "git",
+      "target": "java",
+      "count": 9,
+      "lift": 1.79
+    },
+    {
+      "source": "agile",
+      "target": "react",
+      "count": 9,
+      "lift": 1.85
+    },
+    {
+      "source": "agile",
+      "target": "javascript",
+      "count": 9,
+      "lift": 1.41
+    },
+    {
+      "source": "go",
+      "target": "html",
+      "count": 9,
+      "lift": 0.67
+    },
+    {
+      "source": "jira",
+      "target": "salesforce",
+      "count": 9,
+      "lift": 2.88
+    },
+    {
+      "source": "docker",
+      "target": "react",
+      "count": 9,
+      "lift": 1.64
+    },
+    {
+      "source": "javascript",
+      "target": "salesforce",
+      "count": 9,
+      "lift": 0.87
+    },
+    {
+      "source": "aws",
+      "target": "google cloud",
+      "count": 8,
+      "lift": 6.49
+    },
+    {
+      "source": "nosql",
+      "target": "python",
+      "count": 8,
+      "lift": 1.39
+    },
+    {
+      "source": "go",
+      "target": "java",
+      "count": 8,
+      "lift": 0.98
+    },
+    {
+      "source": "machine learning",
+      "target": "sql",
+      "count": 8,
+      "lift": 2.93
+    },
+    {
+      "source": "power bi",
+      "target": "python",
+      "count": 8,
+      "lift": 1.39
+    },
+    {
+      "source": "css",
+      "target": "java",
+      "count": 8,
+      "lift": 2.1
+    },
+    {
+      "source": "html",
+      "target": "java",
+      "count": 8,
+      "lift": 2.1
+    },
+    {
+      "source": "html",
+      "target": "python",
+      "count": 8,
+      "lift": 0.5
+    },
+    {
+      "source": "agile",
+      "target": "css",
+      "count": 8,
+      "lift": 2.23
+    },
+    {
+      "source": "css",
+      "target": "go",
+      "count": 8,
+      "lift": 0.6
+    },
+    {
+      "source": "postgresql",
+      "target": "salesforce",
+      "count": 8,
+      "lift": 2.14
+    },
+    {
+      "source": "postgresql",
+      "target": "seo",
+      "count": 8,
+      "lift": 4.27
+    },
+    {
+      "source": "python",
+      "target": "seo",
+      "count": 8,
+      "lift": 1.07
+    },
+    {
+      "source": "html",
+      "target": "rest api",
+      "count": 8,
+      "lift": 2.38
+    },
+    {
+      "source": "css",
+      "target": "typescript",
+      "count": 8,
+      "lift": 1.43
+    },
+    {
+      "source": "linux",
+      "target": "python",
+      "count": 8,
+      "lift": 0.93
+    },
+    {
+      "source": "javascript",
+      "target": "postgresql",
+      "count": 8,
+      "lift": 1.11
+    },
+    {
+      "source": "git",
+      "target": "nosql",
+      "count": 7,
+      "lift": 2.36
+    },
+    {
+      "source": "google cloud",
+      "target": "python",
+      "count": 7,
+      "lift": 1.1
+    },
+    {
+      "source": "nosql",
+      "target": "sql",
+      "count": 7,
+      "lift": 2.82
+    },
+    {
+      "source": "git",
+      "target": "postgresql",
+      "count": 7,
+      "lift": 1.31
+    },
+    {
+      "source": "power bi",
+      "target": "sql",
+      "count": 7,
+      "lift": 2.82
+    },
+    {
+      "source": "aws",
+      "target": "azure",
+      "count": 7,
+      "lift": 5.21
+    },
+    {
+      "source": "azure",
+      "target": "google cloud",
+      "count": 7,
+      "lift": 6.63
+    },
+    {
+      "source": "angular",
+      "target": "javascript",
+      "count": 7,
+      "lift": 2.19
+    },
+    {
+      "source": "angular",
+      "target": "react",
+      "count": 7,
+      "lift": 2.88
+    },
+    {
+      "source": "aws",
+      "target": "javascript",
+      "count": 7,
+      "lift": 1.25
+    },
+    {
+      "source": "aws",
+      "target": "sql",
+      "count": 7,
+      "lift": 2.02
+    },
+    {
+      "source": "javascript",
+      "target": "sql",
+      "count": 7,
+      "lift": 0.56
+    },
+    {
+      "source": "docker",
+      "target": "go",
+      "count": 7,
+      "lift": 0.81
+    },
+    {
+      "source": "postgresql",
+      "target": "typescript",
+      "count": 7,
+      "lift": 1.94
+    },
+    {
+      "source": "go",
+      "target": "linux",
+      "count": 7,
+      "lift": 0.97
+    },
+    {
+      "source": "agile",
+      "target": "go",
+      "count": 7,
+      "lift": 0.91
+    },
+    {
+      "source": "react",
+      "target": "salesforce",
+      "count": 7,
+      "lift": 0.89
+    },
+    {
+      "source": "javascript",
+      "target": "jira",
+      "count": 7,
+      "lift": 1.17
+    },
+    {
+      "source": "agile",
+      "target": "git",
+      "count": 7,
+      "lift": 1.48
+    },
+    {
+      "source": "git",
+      "target": "salesforce",
+      "count": 7,
+      "lift": 0.91
+    },
+    {
+      "source": "html",
+      "target": "typescript",
+      "count": 7,
+      "lift": 1.25
+    },
+    {
+      "source": "javascript",
+      "target": "seo",
+      "count": 7,
+      "lift": 1.35
+    },
+    {
+      "source": "angular",
+      "target": "git",
+      "count": 6,
+      "lift": 2.53
+    },
+    {
+      "source": "angular",
+      "target": "python",
+      "count": 6,
+      "lift": 1.3
+    },
+    {
+      "source": "angular",
+      "target": "rest api",
+      "count": 6,
+      "lift": 6.25
+    },
+    {
+      "source": "git",
+      "target": "go",
+      "count": 6,
+      "lift": 0.34
+    },
+    {
+      "source": "google cloud",
+      "target": "sql",
+      "count": 6,
+      "lift": 2.2
+    },
+    {
+      "source": "postgresql",
+      "target": "sql",
+      "count": 6,
+      "lift": 1.34
+    },
+    {
+      "source": "aws",
+      "target": "typescript",
+      "count": 6,
+      "lift": 2.14
+    },
+    {
+      "source": "java",
+      "target": "sql",
+      "count": 6,
+      "lift": 1.42
+    },
+    {
+      "source": "postgresql",
+      "target": "react",
+      "count": 6,
+      "lift": 1.1
+    },
+    {
+      "source": "rest api",
+      "target": "typescript",
+      "count": 6,
+      "lift": 2.0
+    },
+    {
+      "source": "go",
+      "target": "seo",
+      "count": 6,
+      "lift": 0.96
+    },
+    {
+      "source": "linux",
+      "target": "react",
+      "count": 6,
+      "lift": 1.32
+    },
+    {
+      "source": "agile",
+      "target": "html",
+      "count": 6,
+      "lift": 1.67
+    },
+    {
+      "source": "nosql",
+      "target": "typescript",
+      "count": 6,
+      "lift": 3.0
+    },
+    {
+      "source": "angular",
+      "target": "css",
+      "count": 6,
+      "lift": 3.35
+    },
+    {
+      "source": "docker",
+      "target": "postgresql",
+      "count": 6,
+      "lift": 2.31
+    },
+    {
+      "source": "go",
+      "target": "machine learning",
+      "count": 5,
+      "lift": 0.95
+    },
+    {
+      "source": "google cloud",
+      "target": "rest api",
+      "count": 5,
+      "lift": 3.79
+    },
+    {
+      "source": "angular",
+      "target": "sql",
+      "count": 5,
+      "lift": 2.52
+    },
+    {
+      "source": "go",
+      "target": "google cloud",
+      "count": 5,
+      "lift": 0.95
+    },
+    {
+      "source": "go",
+      "target": "rest api",
+      "count": 5,
+      "lift": 0.69
+    },
+    {
+      "source": "python",
+      "target": "rest api",
+      "count": 5,
+      "lift": 0.58
+    },
+    {
+      "source": "rest api",
+      "target": "sql",
+      "count": 5,
+      "lift": 1.34
+    },
+    {
+      "source": "azure",
+      "target": "go",
+      "count": 5,
+      "lift": 0.87
+    },
+    {
+      "source": "aws",
+      "target": "react",
+      "count": 5,
+      "lift": 1.17
+    },
+    {
+      "source": "react",
+      "target": "sql",
+      "count": 5,
+      "lift": 0.53
+    },
+    {
+      "source": "linux",
+      "target": "salesforce",
+      "count": 5,
+      "lift": 1.6
+    }
+  ],
+  "seniority": {
+    "unspecified": 96,
+    "lead": 12,
+    "junior": 8,
+    "senior": 7,
+    "intern": 2
+  },
+  "work_mode": {
+    "unspecified": 68,
+    "remote": 47,
+    "onsite": 6,
+    "hybrid": 4
+  },
+  "role_family": {
+    "other": 73,
+    "engineering": 15,
+    "data": 15,
+    "frontend": 8,
+    "fullstack": 4,
+    "devops": 4,
+    "mobile": 3,
+    "security": 2,
+    "qa": 1
+  },
+  "location_notes": {
+    "Worldwide": 14,
+    "Brasil,": 5,
+    "San Francisco": 2,
+    "LATAM": 2,
+    "California, California, United States": 2,
+    "Remote,": 2,
+    "United Kingdom,": 2,
+    "Madrid, Madrid, Comunidad de Madrid, EspaÃ±a": 2,
+    "New York City": 1,
+    "Remote - US": 1,
+    "Los Angeles": 1,
+    "Kuala Lumpur, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia": 1,
+    "Brisbane City,": 1,
+    "Pune": 1,
+    "New York, New York, New York, United States": 1
+  },
+  "skill_salary": [],
+  "years_required": {
+    "median": 3,
+    "distribution": {
+      "3": 12,
+      "2": 11,
+      "5": 7,
+      "1": 7,
+      "4": 2,
+      "8": 1,
+      "6": 1
+    }
+  }
+}
