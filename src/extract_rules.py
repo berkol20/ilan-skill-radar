@@ -46,7 +46,6 @@ SKILLS: dict[str, list[str]] = {
     "rust": ["rust"],
     "scala": ["scala"],
     "kotlin": ["kotlin"],
-    "swift": ["swift"],
     "elixir": ["elixir"],
     "postgresql": ["postgresql", "postgres"],
     "mysql": ["mysql"],
@@ -69,7 +68,7 @@ SKILLS: dict[str, list[str]] = {
     "linux": ["linux", "unix"],
     "bash": ["bash", "shell scripting"],
     "graphql": ["graphql"],
-    "rest api": ["rest api", "rest apis", "restful api", "restful apis", "rest"],
+    "rest api": ["rest api", "rest apis", "restful api", "restful apis"],
     "grpc": ["grpc"],
     "microservices": ["microservices", "microservice"],
     "kafka": ["kafka"],
@@ -124,7 +123,20 @@ SKILLS: dict[str, list[str]] = {
 # Çok kısa oldukları için normal kelime sınırı yetmeyen isimler.
 # Bunlar ancak belirli bağlamlarda sayılıyor.
 STRICT_SKILLS: dict[str, list[str]] = {
-    "go": [r"\bgolang\b", r"\bgo\s+(?:lang|programming|developer|engineer)\b", r"\bin\s+go\b"],
+    # "in go" kalıbı "go-to-market" ifadesini yakalıyordu: 60 ilanın çoğu
+    # yanlış pozitifti (İK, operatör, teknisyen ilanları). Artık tire ve
+    # "go to/live/forward" devamları dışlanıyor.
+    "go": [
+        r"\bgolang\b",
+        r"\bgo\s+(?:lang|programming|developer|engineer)\b",
+        r"(?<![\w-])(?:in|with|using|of)\s+go(?![\w-])(?!\s+(?:to|live|forward|public|through))",
+        r"(?<![\w-])go(?![\w-])\s*(?:,|/|and)\s*(?:rust|python|java|node|kubernetes|c\+\+)",
+    ],
+    # "swift action", "swift response" gibi sıfat kullanımlarını dışla
+    "swift": [
+        r"(?<![a-z0-9])swiftui(?![a-z0-9])",
+        r"(?<![a-z0-9])swift(?![a-z0-9])(?!\s+(?:action|response|decision|turnaround|resolution|execution))",
+    ],
     "r": [r"\br\s+(?:programming|language)\b", r"\b(?:python|sql)\s*(?:,|/|and)\s*r\b"],
     "c": [r"\bc\s+programming\b", r"\bc/c\+\+"],
     "c++": [r"c\+\+"],

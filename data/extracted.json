@@ -81,8 +81,7 @@
       "aws",
       "docker",
       "google cloud",
-      "kubernetes",
-      "rest api"
+      "kubernetes"
     ],
     "seniority": "unspecified",
     "years_required": 2,
@@ -182,7 +181,6 @@
       "google cloud",
       "nosql",
       "python",
-      "rest api",
       "sql"
     ],
     "seniority": "unspecified",
@@ -1046,7 +1044,6 @@
       "postgresql",
       "rails",
       "react",
-      "rest api",
       "ruby",
       "typescript"
     ],
@@ -11039,7 +11036,6 @@
       "linux",
       "next.js",
       "react",
-      "rest api",
       "sass",
       "tailwind",
       "typescript"
@@ -11517,8 +11513,7 @@
       "git",
       "html",
       "javascript",
-      "react",
-      "rest api"
+      "react"
     ],
     "seniority": "unspecified",
     "years_required": null,
@@ -11661,8 +11656,7 @@
       "go",
       "html",
       "javascript",
-      "react",
-      "rest api"
+      "react"
     ],
     "seniority": "unspecified",
     "years_required": 4,
@@ -11895,7 +11889,6 @@
       "rabbitmq",
       "react",
       "redis",
-      "rest api",
       "sass",
       "tailwind",
       "typescript",
